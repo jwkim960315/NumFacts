@@ -1,0 +1,39 @@
+body::after {
+	content: "";
+	background: url(../images/school-2596090.svg);
+	opacity: 0.35;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+.container {
+	font-family: 'Indie Flower', cursive;
+	color: navy;
+}
+
+.title {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;	
+}
+
+small#numberHelpBlock {
+	font-size: 18px;
+	color: navy !important;
+}
+
+p {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.form-control, .form-control:focus {
+	color: navy !important;
+}
+
+
+
