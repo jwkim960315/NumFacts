@@ -3,7 +3,7 @@ import http from 'http';
 
 export default axios
 	.create({
-		baseURL: 'https://numbersapi.com'
+		baseURL: 'http://numbersapi.com'
 	});
 
 
